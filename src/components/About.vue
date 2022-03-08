@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Hello {{ their_name }} This is an about page</h1>
     <p>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos quos
       assumenda sunt laboriosam! Tenetur, ratione reiciendis porro sequi cumque
@@ -13,5 +13,10 @@
 <script>
 export default {
   name: "about-page",
+  data() {
+    return {
+      their_name: this.$route.params.name,
+    };
+  },
 };
 </script>

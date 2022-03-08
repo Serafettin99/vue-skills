@@ -7,7 +7,7 @@ Vue.use(VueRouter);
 
 export default new VueRouter({
   routes: [
-    { path: "./", name: "skills", component: Skills },
-    { path: "./about", name: "about", component: About },
+    { path: "/", name: "skill-items", component: Skills },
+    { path: "/about/:name", name: "about-page", component: About },
   ],
 });
