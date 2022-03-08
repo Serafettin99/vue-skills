@@ -1,4 +1,10 @@
 # vue-skills
+```
+This is a simple Vue project.
+```
+## link 
+https://nervous-mayer-2a57e4.netlify.app
+
 
 ## Project setup
 ```
