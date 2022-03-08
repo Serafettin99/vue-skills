@@ -1,0 +1,12 @@
+ul {
+  list-style-type: none;
+}
+li {
+  font-weight: bold;
+}
+.alert {
+  background-color: rgb(202, 46, 46);
+}
+.another-class {
+  border: 15px solid black;
+}
